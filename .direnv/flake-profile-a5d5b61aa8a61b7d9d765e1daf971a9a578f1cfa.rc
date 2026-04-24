@@ -27,7 +27,7 @@ JAVA_HOME='/nix/store/vlk9ah96wjppmc82qnd3wjlca498ml81-openjdk-25.0.2+10/lib/ope
 export JAVA_HOME
 LD='ld'
 export LD
-LINENO='76'
+LINENO='79'
 MACHTYPE='x86_64-pc-linux-gnu'
 NIX_BINTOOLS='/nix/store/i6ppbrlpp6yki8qvka7nyv091xa8dchx-binutils-wrapper-2.44'
 export NIX_BINTOOLS
@@ -39,13 +39,13 @@ NIX_CC='/nix/store/a245z3cvf9x9sn0xlk6k8j9xhxbhda1z-gcc-wrapper-15.2.0'
 export NIX_CC
 NIX_CC_WRAPPER_TARGET_HOST_x86_64_unknown_linux_gnu='1'
 export NIX_CC_WRAPPER_TARGET_HOST_x86_64_unknown_linux_gnu
-NIX_CFLAGS_COMPILE=' -frandom-seed=4qga12s6mp -isystem /nix/store/vlk9ah96wjppmc82qnd3wjlca498ml81-openjdk-25.0.2+10/include -isystem /nix/store/n7iyqawbhv90ikx7casy5sapwpqj870b-ncurses-6.6-dev/include -isystem /nix/store/wlafyp4d5mjdfvkj88m4l2a84fzcxjfv-zlib-1.3.1-dev/include -isystem /nix/store/vlk9ah96wjppmc82qnd3wjlca498ml81-openjdk-25.0.2+10/include -isystem /nix/store/n7iyqawbhv90ikx7casy5sapwpqj870b-ncurses-6.6-dev/include -isystem /nix/store/wlafyp4d5mjdfvkj88m4l2a84fzcxjfv-zlib-1.3.1-dev/include'
+NIX_CFLAGS_COMPILE=' -frandom-seed=c9nahg4cg8 -isystem /nix/store/vlk9ah96wjppmc82qnd3wjlca498ml81-openjdk-25.0.2+10/include -isystem /nix/store/n7iyqawbhv90ikx7casy5sapwpqj870b-ncurses-6.6-dev/include -isystem /nix/store/wlafyp4d5mjdfvkj88m4l2a84fzcxjfv-zlib-1.3.1-dev/include -isystem /nix/store/vlk9ah96wjppmc82qnd3wjlca498ml81-openjdk-25.0.2+10/include -isystem /nix/store/n7iyqawbhv90ikx7casy5sapwpqj870b-ncurses-6.6-dev/include -isystem /nix/store/wlafyp4d5mjdfvkj88m4l2a84fzcxjfv-zlib-1.3.1-dev/include'
 export NIX_CFLAGS_COMPILE
 NIX_ENFORCE_NO_NATIVE='1'
 export NIX_ENFORCE_NO_NATIVE
 NIX_HARDENING_ENABLE='bindnow format fortify fortify3 libcxxhardeningextensive libcxxhardeningfast pic relro stackclashprotection stackprotector strictoverflow zerocallusedregs'
 export NIX_HARDENING_ENABLE
-NIX_LDFLAGS='-rpath /mnt/kael/data/Documents/Projects/Missing-Time/outputs/out/lib  -L/nix/store/z2903hglhpxv4hyczli0ncdf09wmma92-ncurses-6.6/lib -L/nix/store/ri9paa3mri4kqakljak8ldvbcp7lpmif-zlib-1.3.1/lib -L/nix/store/z2903hglhpxv4hyczli0ncdf09wmma92-ncurses-6.6/lib -L/nix/store/ri9paa3mri4kqakljak8ldvbcp7lpmif-zlib-1.3.1/lib'
+NIX_LDFLAGS='-rpath /mnt/kael/@data/Workspaces/Projects/Missing-Time/outputs/out/lib  -L/nix/store/z2903hglhpxv4hyczli0ncdf09wmma92-ncurses-6.6/lib -L/nix/store/ri9paa3mri4kqakljak8ldvbcp7lpmif-zlib-1.3.1/lib -L/nix/store/z2903hglhpxv4hyczli0ncdf09wmma92-ncurses-6.6/lib -L/nix/store/ri9paa3mri4kqakljak8ldvbcp7lpmif-zlib-1.3.1/lib'
 export NIX_LDFLAGS
 NIX_NO_SELF_RPATH='1'
 NIX_STORE='/nix/store'
@@ -139,7 +139,7 @@ name='nix-shell-env'
 export name
 nativeBuildInputs='/nix/store/a245z3cvf9x9sn0xlk6k8j9xhxbhda1z-gcc-wrapper-15.2.0 /nix/store/fvmv3vvccc5h724vzci6hg1jd19cznir-gradle-8.14.4 /nix/store/vlk9ah96wjppmc82qnd3wjlca498ml81-openjdk-25.0.2+10 /nix/store/ald6ilk8jcv94cw15m1gvz7sp9a4gm0m-maven-3.9.12 /nix/store/n7iyqawbhv90ikx7casy5sapwpqj870b-ncurses-6.6-dev /nix/store/c2p7haf4zzkbrir9zs662r68c5dmylbq-patchelf-0.15.2 /nix/store/wlafyp4d5mjdfvkj88m4l2a84fzcxjfv-zlib-1.3.1-dev'
 export nativeBuildInputs
-out='/mnt/kael/data/Documents/Projects/Missing-Time/outputs/out'
+out='/mnt/kael/@data/Workspaces/Projects/Missing-Time/outputs/out'
 export out
 outputBin='out'
 outputDev='out'
@@ -170,7 +170,7 @@ preConfigurePhases=' updateAutotoolsGnuConfigScriptsPhase'
 declare -a preFixupHooks=('_moveToShare' '_multioutDocs' '_multioutDevs' )
 preferLocalBuild='1'
 export preferLocalBuild
-prefix='/mnt/kael/data/Documents/Projects/Missing-Time/outputs/out'
+prefix='/mnt/kael/@data/Workspaces/Projects/Missing-Time/outputs/out'
 declare -a propagatedBuildDepFiles=('propagated-build-build-deps' 'propagated-native-build-inputs' 'propagated-build-target-deps' )
 propagatedBuildInputs=''
 export propagatedBuildInputs
